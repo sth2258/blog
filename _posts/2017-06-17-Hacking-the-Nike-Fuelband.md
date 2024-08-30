@@ -1,6 +1,6 @@
 ---
 title: "Hacking the Nike+ Fuelband....ok, maybe not"
-date: YYYY-MM-DD
+date: 2017-07-17
 ---
 
 I know you might not be able to tell by my svelte physique, but I've recently become very into running; and being a technologist at heart, I am always fascinated with seeing all the new cool gadgets being used out there.

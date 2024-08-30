@@ -1,0 +1,6 @@
+title: "The Engineering Architect's Perspective"
+author: "Steve Haber"
+description: "Welcome to 'The Engineering Architect's Perspective' - a blog dedicated to exploring the diverse world of engineering through the lens of a solutions architect."
+remote_theme: pages-themes/architect@v0.2.0
+plugins:
+- jekyll-remote-theme

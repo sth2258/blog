@@ -28,10 +28,13 @@ Using procmon (on my Windows 7 PC), I was also able to see that the app is modif
 So, what next? Wireshark. Having very little experience with the product, I wasn't able to do much immediately. After some fiddling, I was able to see the network operations that the software was performing, which would be the key to "hacking" the FuelBand.
 
 From step 1 to step 5 (mentioned above) there were around 120 packets being sent/received. Right out of the gate, the software is performing DNS queries...ET phone home. These DNS queries (for nikerunning.nike.com) were just so the software can download the XML file referenced above - Following the TCP stream, we can see an HTTP GET issued to /nikeplus/connect5/config/config.xml on nikerunning.nike.com; the file looks to be cached locally, thus the "config.dat" file.Sometime after this XML file download is where I assumed the meat and potatoes to be. So, scrolling packet 65 in the capture, we again see some DNS operations being performed...this time to api.nike.com. Again, from the URL, it looks to be indicative of things to come in the future. Google tells me also that there does appear to be some movement on the FuelBand API front; no real details yet though. 
+![Wireshark Trace](pages/2017-06-17-wireshark.png "Wireshark Trace")
 
 Also, if you, just as I, performed a dig against that api.nike.com domain, you will see the glorious amazonaws.com domain hosting API (assume its web services of some type). As a side note, I am very happy to see a brand as prestigious as Nike, link its brand to Amazon; it says a lot for the awesome work Amazon is doing in the cloud space.
 
 So you all must be dying to know what data is being sent back and forth to the Amazon AWS/Nike API site! Well, the answer is....I can't tell. What I can tell, is that the network traffic is encrypted (using the Thawte SSL root CA). From some of (very little) clear text I do see inside the TLS v1 payload, there are references to api-preprod.nike.com, api-tie1.nike.com, developer.nike.com and api.stage.nike.com. I would assume that the data being sent up to the AWS website is a serialized and encrypted version of the object data being stored on the device. I can't really blame Nike for encrypting & serializing the data before sending to up to the API - best practices.
+![DNS Queries](pages/2017-06-17-putty.png "DNS queries")
+![More Wireshark traces](pages/2017-06-17-wireshark2.png "More Wireshark traces")
 
 All in, the device is very cool - and has some very interesting technology behind it. Looking forward to the API, whenever that comes out...
 

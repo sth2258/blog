@@ -1,6 +1,7 @@
 ---
 title: "Hacking the Nike+ Fuelband....ok, maybe not"
 date: 2012-07-17
+layout: post
 ---
 
 I know you might not be able to tell by my svelte physique, but I've recently become very into running; and being a technologist at heart, I am always fascinated with seeing all the new cool gadgets being used out there.

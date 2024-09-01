@@ -6,6 +6,7 @@ date: 2024-08-23
 
 When my wife joined the "birthday box" committee at our local PTA, I didn't really think I would be involved too (or maybe that was wishful thinking?). I watched her and other committee members copy-paste data from one website into another multiple times a day, and of course I saw an opportunity to put my tech skills to some use. 
 
+<!--more-->
 ## The Birthday Box Tradition
 
 For those unfamiliar, a birthday box is a simple yet thoughtful way our school celebrates students' birthdays. Parents can order pre-approved snacks or goodies for their child's birthday month through a platform called Givebacks. The PTA committee then assembles these boxes, and ensures these treats are delivered safely and on time.

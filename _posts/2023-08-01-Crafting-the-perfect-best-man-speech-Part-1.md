@@ -5,7 +5,7 @@ date: 2023-08-01
 ---
 
 When Dave asked me to be the best man at his wedding, I knew I needed to do something special. The speech needed to not only reflect our friendship and also tip my cap to Dave’s experience as the CEO of a biotech startup (with a focus on AI). This is how Robodave was born. The goal was an AI-powered version of Dave that would make a cameo in my speech, adding some much needed comic relief to these sometimes stuffy speeches. 
-
+<!--more-->
 ## Why Create an AI for a Wedding?
 
 Dave’s lives in the AI world on a daily basis. Ordaos develops AI-driven solutions to drug discovery, so it's clear AI is more than just a job for him. I wanted my speech to resonate with that passion, creating a moment that would be both meaningful and entertaining for guests as well as him. After all, what better way to celebrate someone who’s pushing the boundaries of AI than by using that same technology to celebrate him?

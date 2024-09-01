@@ -5,6 +5,7 @@ date: 2024-09-01
 ---
 
 If we have spoken about all things technical, you'd know how much of a lover of Keda I am. For me, this simple piece of middleware is the one brings developers down to the lowest levels of infrastructure, allowing them control for almost everything. 
+<!--more-->
 
 ### For Job Scheduling
 

@@ -5,7 +5,7 @@ date: 2023-08-03
 ---
 
 Building Robodave wasn’t just about using advanced AI tools; it was also about dealing with the mountains of data needed to make the AI work. My real challenge here was turning raw, unstructured data from various sources into something that could be used to train a model. This  post will dive into the preprocessing journey, explaining how I transformed chat logs and phone call recordings into a usable format for fine-tuning Robodave.
-
+<!--more-->
 ## The Data Sources
 
 To make Robodave sound and think like Dave, I needed data—lots of it. Here’s what I used:

@@ -5,7 +5,7 @@ date: 2012-07-17
 ---
 
 I know you might not be able to tell by my svelte physique, but I've recently become very into running; and being a technologist at heart, I am always fascinated with seeing all the new cool gadgets being used out there.
-
+<!--more-->
 When Buster (the Boxer) and I first started back in March, I found this very cool Nike+ GPS app which will track your runs via the GPS in my iPhone, and give you feedback and cheers as you reach your goals. Tim Tebow himself told me how good I was doing! The app is very cool, and will sync all of the data it keeps about your run, to the Nike Running website. Probably all stored in a data warehouse somewhere, so Nike can sell you products catered to you, or maybe just make fun of how slow I am; but that's beside the point.
 
 Nike seems to have a clear dominance in the running advertising space, so when I was browsing their website and stumbled across the Nike+ Fuleband, I was intrigued. This little "Livestrong" type wristband will track all of your movement throughout the day, so you can set goals, and track your movement day over day. Your movement is tracked in a arbitrary value known as "fuel". Since the band has data for your height, weight, and step-counts, it then is able to determine how much "fuel" you are burning in your various movements.

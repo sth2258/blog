@@ -5,7 +5,7 @@ date: 2013-04-13
 ---
 
 There are quite a few things that I am passionate about in this world. Two of them, are sports and technology. I've recently become very interested in some of the mathematics behind the statistics in sports -- most specifically, hockey.
-
+<!--more-->
 I, by no means, fancy myself a statistician; but this does not mean I can't play one on the internet :) In my quest to derive to develop a relationship between some of the statistics out there, I ran into a brick wall; these stats ain't free. Companies pay quite a bit of money for these sorts of data feeds.
 
 I immediately looked at one of the big boys. The biggest, in fact...but who will remain nameless for the duration of this article.

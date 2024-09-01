@@ -5,7 +5,7 @@ date: 2013-12-07
 ---
 
 Our wedding needed to be epic, but with a mix of traditional. We didn't want traditional escord cards, but rather someting innovative. Our solution? TableCarder. A custom-built, touch-screen interface that guided our guests to their tables with a bit of flair. Here's the story of how I brought it to life. 
-
+<!--more-->
 ## The Vision
 
 We wanted an interactive experience where guests could approach a sleek HP touchscreen monitor, tap on their name, and the be guided directly to their table. This had to be seamless process (caugh grandparents caugh), so we set out to develop TableCarder with this in mind.

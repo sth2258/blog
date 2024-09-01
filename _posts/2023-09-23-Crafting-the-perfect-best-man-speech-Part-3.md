@@ -5,7 +5,7 @@ date: 2023-09-23
 ---
 
 After countless hours of planning, speech writing, data wrangling, and model training, voice data extraction and more, it was finally time to bring Robodave to life. This final phase of the project (aka, the Wedding) was where everything came together. It all culminated in an unforgettable moment that the groom and guests would not forget. 
-
+<!--more-->
 ## Integrating the Components
 
 The creation of Robodave involved combining several complex systems. Here’s how I brought everything together:

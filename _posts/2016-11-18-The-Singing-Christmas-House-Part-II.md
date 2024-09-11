@@ -22,11 +22,9 @@ There was also a limitation to the types / sizes of lights we were able to insta
 
 Yes folks - those are melted relays. For some of the channels, we FAR exceeded that 2 ams (whoops). But don't worry folks - [Amazon's got a solution](https://www.amazon.com/uxcell-SSR-25-3-32V-24-380V-Solid/dp/B0087ZTN08/ref=sr_1_1?ie=UTF8&qid=1479508819&sr=8-1&keywords=solid+state+relay). I installed 2 of these guys in our new setup, though it took a bit of hacking to get there. 
 
-```
-<nerd>
+`<nerd>`
 These relays require a control voltage of min 3 volts in order to trigger. The trouble is, the PWM outputs on the Raspberry Pi output at 1.5v - so no good. The proper solution would have been to use an N-Channel MOSFET as a DC switch so that when the 1.5v hit the MOSFET, it opens up and lets pixes flow for another transformer that I would have to connect (say for something like an old phone charger). But - I wasn't about to solder or throw a breadboard into this setup, so the fun little workaround I found was to connect an AA battery in series with the GPIO output - so that way, a constant voltage of 1.5v hits the relay (and does nothing) but when combined with the other voltage it is enough to trigger the relay.
-</nerd>
-```
+`</nerd>`
 
 ##  The software...
 

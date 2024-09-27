@@ -1,5 +1,5 @@
 ---
-title: "Christmas-Lights 2024"
+title: "Christmas Lights 2024"
 layout: post
 date: 2024-09-27
 ---

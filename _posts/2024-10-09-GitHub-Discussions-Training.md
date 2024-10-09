@@ -7,7 +7,7 @@ date: 2024-10-09
 I was recently presented with an interesting challenge. Lots of organizations are attempting to fine tune their local LLMs to make them expert systems, and make responses relevant for their particular organization. 
 
 What about discussions? Architectural decision records? Issue discussions? Comments? Wikis? Organizations using GitHub to track these are in luck! Enter, me :)
-
+<!--more-->
 Using Amazon Bedrock however, there are no direct connectors for GitHub, so using the GitHub API (both traditional and GraphQL), I've written a quick `pwsh` script to scrape this data and dump it to a format that can directly be used for fine-tuning your model. 
 
 At the end, you are presented with a jsonl file, as well as an entire directory of wiki content that you can use to store inside your S3 bucket to be used for a fine-tuning task. 

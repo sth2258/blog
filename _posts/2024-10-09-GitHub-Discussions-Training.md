@@ -12,6 +12,8 @@ Using Amazon Bedrock however, there are no direct connectors for GitHub, so usin
 
 At the end, you are presented with a jsonl file, as well as an entire directory of wiki content that you can use to store inside your S3 bucket to be used for a fine-tuning task. 
 
+Follow me on GitHub and download the Gist [here](https://gist.github.com/sth2258/d82eac0a1d7c2b3cd803cab4a7b86f5a)
+
 ```
 # Step 1: Set up GitHub API details
 $githubToken = ""  # Replace with your GitHub API token

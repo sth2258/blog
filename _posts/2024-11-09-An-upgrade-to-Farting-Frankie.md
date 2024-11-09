@@ -26,6 +26,7 @@ We luck out in that there is an existing 12v circuit for this prop, which is use
 The existing photoeye sensor is on a 5vdc circuit. We simply cut the existing connection, and connect the +5vdc line into the `COM` port on the relay, and the photoeye load wire into the `NO` port on the relay. 
 
 A few notes here:
-- Yes, it's likely possible to swap the +5vdc and load wires of the photoeye, however lots of relays have built in diodes which allow voltage to flow in only 1 way, so much safer to test which side is **line** and splice accordingly. 
+- Yes, it's likely possible to swap the +5vdc and load wires of the photoeye, however lots of relays have built in diodes which allow voltage to flow in only one direction, so much safer to test which side is **line** and splice accordingly. 
 - `NO` on the relay stands for normally open; meaning the circuit is 'off' until the trigger closes it. 
   - If you screw up and connect it to the `NC` (normally closed), it would mean constant farts until the PIR detects motion. Quite the opposite of what we want, but would most certainly be a fun outcome :P
+- There is a high/low signal jumper on the relay - This lets you control whether the relay is triggered by a high or low (aka on and off in human speak) in the circuit. Our sensor will always be low unless the sensor detects motion, which then sends high (on, +12v). High is the default, and yes of course you can offset this by using `NO` / `NC` - but lets k.i.s.s. - `HIGH` plus `NO` will do just fine.
